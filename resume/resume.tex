@@ -1,0 +1,122 @@
+\documentclass[12pt]{article}
+
+\usepackage[a4paper, margin=0.33in]{geometry}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{fontawesome}
+
+\pagestyle{empty}
+
+% Section formatting
+\titleformat{\section}
+{\scshape\raggedright\large}{}{}{}
+[\vspace{2pt}\color{black}\titlerule\vspace{5pt}]
+\titlespacing*{\section}{0pt}{4pt}{4pt}
+
+% List styling
+\setlist[itemize]{leftmargin=*}
+\setlist[itemize,1]{itemsep=4pt, topsep=4pt, parsep=0pt, partopsep=0pt}
+\setlist[itemize,2]{label=$\bullet$, leftmargin=1.5em, itemsep=2pt,
+parsep=0pt, before=\small}
+
+% Custom macros
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}
+\item
+  \begin{tabular*}{0.98\textwidth}{@{}l@{\extracolsep{\fill}}r@{}}
+    \textbf{#1} & #2 \\[1pt]
+    \textit{\small#3} & \textit{\small #4} \\
+  \end{tabular*}\vspace{-2pt}
+}
+
+\newcommand{\resumeItem}[2]{%
+\item\small
+  \textbf{#1}:%
+  \hangindent=2em
+  \hangafter=1
+  \ #2\vspace{-2pt}
+}
+
+\begin{document}
+
+\noindent
+\textbf{\Large Sujit Balasubramanian}
+\hfill
+\href{mailto:sujitbalasubramanianr@gmail.com}{sujitbalasubramanianr@gmail.com}
+
+\noindent
+\faGlobe \href{https://sujitbalasubramanian.in}{Website} \textbar{}
+\faGithub \href{https://github.com/sujitbalasubramanian}{GitHub} \textbar{}
+\faLinkedin \href{https://www.linkedin.com/in/sujit-balasubramanian}{LinkedIn}
+\hfill
+\href{tel:+919789697088}{+91 97896 97088}
+
+\section*{Skills}
+\begin{itemize}
+    \resumeItem{Professional}{TypeScript (React, Next.js, Astro,
+      NestJS, Capacitor, Electron), C/C++ (N-API, Webview, AVR,
+      Flutter Plugins), Python, Flutter, PostgreSQL, MongoDB,
+    Redis, Docker, Terraform.}
+    \resumeItem{Personal}{C, Rust, Lua, Compilers, LLVM, Linux Device
+    Drivers, Network Programming, Raylib, WASM, CMake, Valgrind, GDB.}
+\end{itemize}
+
+\section*{Professional Experience}
+\begin{itemize}
+
+    \resumeSubheading
+    {Senior Software Engineer $|$ Green Collar Global}{Nov 2023 -- Present}
+    {React, Next.js, Flutter, C++, NestJS, PostgreSQL}{Bengaluru, IN}
+    \begin{itemize}
+      \item WIP...
+    \end{itemize}
+
+    \resumeSubheading
+    {Freelance DevOps Engineer $|$ Centillion Labs} {Dec 2023 -- Feb 2024}
+    {Terraform, Docker, Kubernetes} {Remote}
+    \begin{itemize}
+      \item Designed and implemented a Terraform-based automation
+        pipeline for the data-science workflow, reducing manual effort by
+        100\% on setting up the infrastructure which accelerated quicker
+        release cycles.
+      \item Contributed to the infrastructure migration to Kubernetes
+        and containerizing multiple services.
+    \end{itemize}
+
+    \resumeSubheading
+    {Freelance Full-Stack Developer $|$ E-commerce Clients}{Jun 2023
+    -- Feb 2024}
+    {React, NestJS, MongoDB, Docker}
+    {
+      \href{https://nativefoodsindia.com}{\faExternalLink nativefoodsindia.com},
+      \href{https://ganeshsahsilks.com}{\faExternalLink ganeshsahsilks.com}
+    }
+    \begin{itemize}
+      \item Built responsive website and admin portal with good user
+        experience using React, MUI and Tailwind CSS.
+      \item Designed and implemented REST APIs with core commerce
+        modules including order \& preorder workflows, inventory services,
+        customer profiles, discount engine, and secure payment
+        gateway integrations.
+      \item Enabled clients to scale operations and achieve a 5x
+        increase in digital order volume and revenue.
+    \end{itemize}
+
+\end{itemize}
+
+\section*{Projects \& Contributions}
+\begin{itemize}
+    WIP...
+\end{itemize}
+
+\section*{Education}
+\begin{itemize}
+    \resumeSubheading
+    {Kongu Engineering College}{Tamil Nadu, IN}
+    {B.Tech in Artificial Intelligence \& Data Science; GPA:
+    7.48}{Nov 2021 -- Mar 2025}
+\end{itemize}
+
+\end{document}

@@ -1,0 +1,33 @@
+:root {
+  --accent: #2337ff;
+  --accent-dark: #000d8a;
+  --black: 15, 18, 25;
+  --gray: 96, 115, 159;
+  --gray-light: 229, 233, 240;
+  --gray-gradient: rgba(var(--gray-light), 50%), #fff;
+  --gray-dark: 34, 41, 57;
+}
+
+body {
+  font-family: "Source Sans 3", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(var(--gray-gradient)) no-repeat;
+}
+
+nav,
+main {
+  width: 720px;
+  max-width: calc(100% - 2em);
+  margin: auto;
+}
+
+main {
+  padding: 3em 1em;
+}
+
+code {
+  padding: 2px 5px;
+  background-color: rgb(var(--gray-light));
+  border-radius: 2px;
+}
