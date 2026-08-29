@@ -2,9 +2,9 @@ root = "."
 tmp_dir = "build"
 
 [build]
-  cmd = "mkdir -p build && pdflatex -interaction=nonstopmode -output-directory=build resume.tex"
-  delay = 1000
-  include_ext = ["tex"]
+cmd = "mkdir -p build && pdflatex -interaction=nonstopmode -output-directory=build resume.tex"
+delay = 1000
+include_ext = ["tex"]
 
-  bin = "/bin/true"
-  stop_on_error = true
+bin = "/bin/true"
+stop_on_error = true
