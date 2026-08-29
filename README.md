@@ -1,6 +1,6 @@
-# Hey There
+# About me
 
-I'm Sujit, a software engineer interested in compilers and systems programming. Based in India. I love programming in C and Lua.
+I'm Sujit from India, a software engineer interested in systems programming. I love programming in C and Lua.
 
 **Links**
 

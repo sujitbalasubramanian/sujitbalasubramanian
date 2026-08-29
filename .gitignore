@@ -1,4 +1,5 @@
 node_modules/
+build/
 /triage/
 /.compiler/
 dist/
